@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Turslot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1 id="name">Turslot Casino</h1>
+      <div class="slotmachine">
+        <video
+          id="slotbg"
+          src="imgs/slotbg.webm"
+          muted
+          draggable="false"
+        ></video>
+
+        <video
+          id="defaultleft"
+          src="imgs/seven-left.webm"
+          muted
+          draggable="false"
+        ></video>
+
+        <video
+          id="defaultcenter"
+          src="imgs/seven-center.webm"
+          muted
+          draggable="false"
+        ></video>
+
+        <video
+          id="defaultright"
+          src="imgs/seven-right.webm"
+          muted
+          draggable="false"
+        ></video>
+
+        <video
+          id="leveranim"
+          src="imgs/spin.webm"
+          muted
+          draggable="false"
+        ></video>
+      </div>
+
+      <button id="playBtn">SPIN!!!</button>
+    </div>
+    <canvas id="effects"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
